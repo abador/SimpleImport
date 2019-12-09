@@ -1,0 +1,10 @@
+{{#if:{{{GameItem|}}}|
+{{GameItem_infobox
+|image={{{GameItemImage}}}
+|name={{{GameItemName}}}
+|level={{{GameItemLevel}}}}}
+|}}
+{{#if:{{{Information|}}}|
+==Information==
+{{{Information}}}
+|}}

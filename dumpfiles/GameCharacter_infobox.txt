@@ -1,0 +1,22 @@
+<div id="GameCharacter_infobox" class="infobox hidable" style="padding: 0px; {{#if:{{{width|}}}|width:{{{width}}};|}}">
+{| class="infoboxtable hidable-content" cellspacing="0" cellpadding="4" style="border-width: 0px"
+ |-
+| class="infoboximage" colspan="2" style="{{#if:{{{imageBG|}}}|background: #{{{imageBG}}}|{{#if:369|background: #369|background: #999999}}}}" | {{{image|}}}
+ |- 
+! class="infoboxheading" colspan="2" style="{{#if:369|background: #369|background: #999999}}; " | {{{name}}}
+ {{#if:{{{name|}}}|
+{{!}}-
+{{!}} class="infoboxlabel" style="{{#if:{{{3|}}}|background: #{{{3}}}|}}" {{!}} Name
+{{!}} class="infoboxcell" style="{{#if:{{{3|}}}|background: #{{{3}}}|}}; {{{css|}}}" {{!}}
+{{{name|}}}
+{{!}}-
+|}} {{#if:{{{location|}}}|
+{{!}}-
+{{!}} class="infoboxlabel" style="{{#if:{{{3|}}}|background: #{{{3}}}|}}" {{!}} Location
+{{!}} class="infoboxcell" style="{{#if:{{{3|}}}|background: #{{{3}}}|}}; {{{css|}}}" {{!}}
+{{{location|}}}
+{{!}}-
+|}} 
+|}
+<div class="infoboxfooter plainlinks" style="text-align: center; {{#if:369|background: #369|background: #999999}}"><span class="hidable-button"></span>[[Template:GameCharacter_infobox|[Source]]]</div>
+{{#if:369|{{rb|#369}}|{{rb|#999999}}}}</div><!-- TEMPLATE ENDS HERE. In order to regenerate the template, replace the code above with the source code provided. -->

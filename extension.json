@@ -1,0 +1,28 @@
+{
+	"name": "SimpleImport",
+	"version": "0.0.1",
+	"author": [
+		"Przemysłąw Czaus"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SimpleImport",
+	"descriptionmsg": "simple-import-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "api",
+	"requires": {
+		"MediaWiki": ">= 1.32.0"
+	},
+	"MessagesDirs": {
+		"SimpleImport": [
+			"i18n"
+		]
+	},
+	"APIModules": {
+		"simpleimport" : "SimpleImport",
+		"simpletemplateimport" : "SimpleTemplateImport"
+	},
+	"AutoloadClasses": {
+		"SimpleImport": "SimpleImport.php",
+		"SimpleTemplateImport": "SimpleTemplateImport.php"
+	},
+	"manifest_version": 1
+}

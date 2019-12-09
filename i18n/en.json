@@ -1,0 +1,7 @@
+{
+	"apierror-invalid-json": "JSON cannot be decoded",
+	"apierror-invalid-page-data": "Invalid page data, empty wikitext generated",
+	"apierror-import-unknownerror": "Unknown import error",
+	"api-error-no-template": "Template not present on wiki. Did you forgot to create?",
+	"api-error-no-templates": "No templates specified for import"
+}
